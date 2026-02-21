@@ -1,1 +1,1 @@
-# Movie-Watchlist-Manager
+Movie-Watchlist-Manager App
