@@ -1,0 +1,110 @@
+.app-container {
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.app-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 10px;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.btn {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #e5e7eb;
+}
+
+.btn.primary {
+    background: #6366f1;
+    color: white;
+}
+
+.btn.secondary {
+    background: #0ea5e9;
+    color: white;
+}
+
+.btn.danger {
+    background: #ef4444;
+    color: white;
+}
+
+.btn.active {
+    background: #6366f1;
+    color: white;
+}
+
+.filter-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meta {
+    font-size: 12px;
+    color: #666;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.empty {
+    text-align: center;
+    color: #777;
+}
+
+.success-msg {
+    text-align: center;
+    font-weight: bold;
+    color: #16a34a;
+}
+
+.error-msg {
+    min-height: 20px;
+    color: #e53935;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+}
